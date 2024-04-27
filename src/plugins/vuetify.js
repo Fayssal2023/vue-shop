@@ -1,0 +1,52 @@
+import { createVuetify } from 'vuetify'
+import 'vuetify/styles'
+
+import {
+  VApp,
+  VBtn,
+  VIcon,
+  VContainer,
+  VRow,
+  VCol,
+  VCard,
+  VCardTitle,
+  VCardSubtitle,
+  VCardActions,
+  VDialog,
+  VToolbar,
+  VToolbarTitle,
+  VImg,
+  VList,
+  VListItem,
+  VListItemTitle,
+  VListItemSubtitle,
+  VListItemAction,
+  VDivider,
+  VSpacer,
+} from 'vuetify/components'
+
+export default createVuetify({
+  components: {
+    VApp,
+    VBtn,
+    VIcon,
+    VContainer,
+    VRow,
+    VCol,
+    VCard,
+    VCardTitle,
+    VCardSubtitle,
+    VCardActions,
+    VDialog,
+    VToolbar,
+    VToolbarTitle,
+    VImg,
+    VList,
+    VListItem,
+    VListItemTitle,
+    VListItemSubtitle,
+    VListItemAction,
+    VDivider,
+    VSpacer,
+  },
+})
